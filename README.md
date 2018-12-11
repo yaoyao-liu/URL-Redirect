@@ -14,4 +14,4 @@ Third, change the contents of the [CNAME](./CNAME) file in the repo to your doma
 
 Fourth, replace the URL is the [index.html](./index.html) to whatever your want.
 
-There is also a Chinese version for this repo.
+There is also a [Chinese version](https://github.com/y2l/URL-Redirect-zh/) for this repo.
