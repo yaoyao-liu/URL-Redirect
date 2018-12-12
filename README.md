@@ -3,10 +3,19 @@ Sometimes, you register a domain but you don't have a server. You may want this 
 
 First, create a new empty repo and import this repo to it.
 
-Second, add a `CNAME` record to your domain as follows:
+Second, configure a `CNAME` record to your domain as follows:
 ```
 Host: whatever you want. e.g. "www" or "@"
 Target / Canonical name: your_username.github.io.
+TTL: 10 min
+```
+You may also configure an `A` record instead of the `CNAME` record as follows:
+```
+Host: whatever you want. e.g. "www" or "@"
+IP: 185.199.108.153
+    185.199.109.153
+    185.199.110.153
+    185.199.111.153
 TTL: 10 min
 ```
 
