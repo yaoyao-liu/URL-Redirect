@@ -5,7 +5,7 @@ First, create a new empty repo and import this repo to it.
 
 Second, add a CNAME record to your domain as follows:
 ```
-Host: whatever you want. e.g. "www"
+Host: whatever you want. e.g. `www`
 Target / Canonical name: your_username.github.io.
 TTL: 10 min
 ```
