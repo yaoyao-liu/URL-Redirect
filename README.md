@@ -3,7 +3,7 @@ Sometimes, you register a domain but you don't have a server. You may want this 
 
 First, create a new empty repo and import this repo to it.
 
-Second, add a CNAME record to your domain as follows:
+Second, add a `CNAME` record to your domain as follows:
 ```
 Host: whatever you want. e.g. "www" or "@"
 Target / Canonical name: your_username.github.io.
